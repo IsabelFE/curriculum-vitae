@@ -32,7 +32,7 @@ mSystems 6(5):e00425-21, 2021
 
 ## Contact Info {#contact}
 
--   <i class="fa fa-envelope"></i> [@gmail.com](mailto:isabel.fernandez.escapa@gmail.com){.email}
+-   [isabel.fernandez.escapa@gmail.com](mailto:isabel.fernandez.escapa@gmail.com){.email}
 -   <i class="fa fa-linkedin-square"></i> [Isabel Fernández Escapa](https://www.linkedin.com/in/isabel-fernández-escapa-4a086369)
 -   <i class="fa fa-github"></i> [github.com/IsabelFE](https://github.com/IsabelFE)
 -   <i class="fa fa-phone"></i> +1 617-416-8599
@@ -59,7 +59,7 @@ Last updated on `r Sys.Date()`
 
 ## Isabel Fernández Escapa {#title}
 
-### BIOINFORMATICS | GENOMICS | MICROBIOLOGY | BIOTECH
+### BIOINFORMATICS | MICROBIOLOGY | DATA SCIENCE | BIOTECH
 
 A microbiologist highly experienced in NGS applications and bioinformatics, with a deep knowledge of bacterial physiology and microbial communities. A proficient problem solver, capable of envisioning product solutions while working closely with laboratory scientists, product managers, software developers and senior leadership. 
 
@@ -87,7 +87,7 @@ New York City, NY
 
 Jul/2021 - Jun/2022
 
--   Single handedly designed, built and maintained a QC report generation workflow to assist operations on a high throughput sequencing production laboratory. 
+-   Single handedly designed, built and maintained a dashboard for NGS QC report generation to assist operations on a high throughput sequencing production laboratory. 
 -   Built and managed a team, provided training to perform routine analytical tasks, as well as mentorship and supervision to develop independent work.
 
 ### Senior Bioinformatics Scientist
@@ -109,8 +109,8 @@ Houston, TX
 
 Sep/2019 - Apr/2021
 
--   Responsible for the design and implementation of bioinformatic pipelines to analyze data derived from microbe-microbe and host-microbe interactions in Human Nasal Organoids.
 -   Established a workflow for exploring genomic diversity using Pangenomics & Phylogenomics (using PanACoTa, Anvio, PPanGGOLiN, GET_HOMOLOGUES, and GET_PHYLOMARKERS).
+-   Assisted in the design of bioinformatic pipelines to analyze data derived from microbe-microbe and host-microbe interactions in Human Nasal Organoids.
 -   Managed the lab GitHub repositories and computing resources.
 -   Mentored students and research assistants on bioinformatics and data analysis.
 
@@ -120,11 +120,13 @@ The Forsyth Institute
 
 Cambridge, MA
 
+Nov/2017 - Aug/2019
+
 -   Developed and validated a comprehensive workflow for analysis of 16S rRNA gene tag sequencing data that uses a training set derived from the Expanded Human Oral Microbiome Database (eHOMD) in conjunction with high-resolution algorithms, to allow species-level identification of oral, nasal and skin bacteria.
 -   Supervised improvements on the 16S rRNA gene V1-V3 microbiome NGS library preparation to achieve longer and more informative reads that, combined with the use of eHOMD, allowed an even higher percentage of species-level assignment. 
 -   Managed the team of research associates and bioinformaticians on the day to day operations of the Core to serve internal and external clients (academic collaborations and commercial services).
 
-Nov/2017 - Aug/2019
+
 
 
 

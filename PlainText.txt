@@ -1,0 +1,97 @@
+Experience
+
+-------
+# Associate Director, Bioinformatics
+
+Pandemic Response Lab (PRL)
+New York City, NY
+Jun 2022 - Present
+
+-   Provided subject matter expertise on the streamlining and automation of end to end NGS lab operations: sample accessioning, LIMS design, bioinformatic and QC analysis, report generation and data delivery.
+-   Designed the architecture and supervised the development of a NextFlow based modular environment to fully automate all bioinformatic steps, including integration with in-house LIMS system, QC analysis, and data storage/delivery.
+-   Supervised implementation of a QC bioinformatics pipeline to assist R&D efforts on the development of a hybrid capture oncological panel.
+-   Supervised team operations for multiple workflows delivering data to customers within a tight schedule, including COVID-19 surveillance from both clinical and wastewater samples, RNA-seq, hybrid capture, whole-genome and plasmid sequencing.
+-------
+
+-------
+# Principal Scientist, Bioinformatics
+
+Pandemic Response Lab (PRL)
+New York City, NY
+Jul/2021 - Jun/2022
+
+-   Single handedly designed, built and maintained a QC report generation workflow to assist operations on a high throughput sequencing production laboratory. 
+-   Built and managed a team, provided training to perform routine analytical tasks, as well as mentorship and supervision to develop independent work.
+-------
+
+-------
+# Senior Bioinformatics Scientist
+
+Pandemic Response Lab (PRL)
+New York City, NY
+Apr/2021 - Jul/2021
+
+-   Participated on developing and optimizing a SARS-CoV-2 amplicon sequencing bioinformatics workflow for NGS Illumina data.
+-   Established a workflow for weekly submission of SARS-CoV-2 sequencing data to public repositories (GISAID and NCBI/SRA).
+-------
+
+-------
+# Senior Staff Scientist, Bioinformatics
+
+Baylor College of Medicine
+Houston, TX
+Sep/2019 - Apr/2021
+
+-   Responsible for the design and implementation of bioinformatic pipelines to analyze data derived from microbe-microbe and host-microbe interactions in Human Nasal Organoids.
+-   Established a workflow for exploring genomic diversity using Pangenomics & Phylogenomics (using PanACoTa, Anvio, PPanGGOLiN, GET_HOMOLOGUES, and GET_PHYLOMARKERS).
+-   Managed the lab GitHub repositories and computing resources.
+-   Mentored students and research assistants on bioinformatics and data analysis.
+-------
+
+-------
+# Sequencing and Bioinformatics Core Director, Assistant Investigator
+
+The Forsyth Institute
+Cambridge, MA
+Nov/2017 - Aug/2019
+
+-   Developed and validated a comprehensive workflow for analysis of 16S rRNA gene tag sequencing data that uses a training set derived from the Expanded Human Oral Microbiome Database (eHOMD) in conjunction with high-resolution algorithms, to allow species-level identification of oral, nasal and skin bacteria.
+-   Supervised improvements on the 16S rRNA gene V1-V3 microbiome NGS library preparation to achieve longer and more informative reads that, combined with the use of eHOMD, allowed an even higher percentage of species-level assignment. 
+-   Managed the team of research associates and bioinformaticians on the day to day operations of the Core to serve internal and external clients (academic collaborations and commercial services).
+-------
+
+-------
+# Post-Doctoral Fellow
+
+The Forsyth Institute / Harvard School of Dental Medicine
+Cambridge, MA
+Nov/2012 - Nov/2017
+
+- Harvard Catalyst Reactor Program Pilot Grant. Human Oral Microbiome Collaboration Opportunity. “Expanding the HOMD to Include Sinonasal- and Skin-associated Bacteria”. Role: Co-Investigator. Mar 2016 - Mar 2017.
+- Ramón Areces Foundation Postdoctoral Fellowship. Oct 2013 - Oct 2015.
+-------
+
+
+-------
+# Education 
+
+
+------
+# Ph.D., Biochemistry and Molecular Biology
+
+Complutense University of Madrid / Center for Biological Research (CIB/CSIC)
+Madrid, Spain
+Sep/2006 - May/2012
+-------
+
+------
+# B.Sc., Biology
+
+University of León
+León, Spain
+Sep/2001 - Jun/2006
+-------
+
+Skills :
+
+Bioinformatics, Data Analysis & Visualization, Illumina NGS Platforms and Sequencing Technologies, Infectious Diseases and Microbiome, R, Linux/Unix, Nextflow, Git, AWS, Leadership, Mentorship, and Interdisciplinary Collaboration
