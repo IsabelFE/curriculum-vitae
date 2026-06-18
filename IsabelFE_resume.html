@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Isabel Fernandez Escapa" />
-    <meta name="date" content="2026-03-29" />
+    <meta name="date" content="2026-06-18" />
     <title>Isabel Fernandez Escapa resume</title>
 
     
@@ -31986,12 +31986,12 @@ box-sizing: border-box;
 }
 :root{
 --page-width: 8.5in;
---margin-right: 0.3in;
---margin-left: 0.25in;
+--margin-right: 0.2in;
+--margin-left: 0.15in;
 --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
 --root-font-size: 12pt;
---sidebar-width: 15rem;
---sidebar-background-color: #f2f2f2;
+--sidebar-width: 17rem;
+--sidebar-background-color: #dcdcdc;
 --main-width: calc(var(--content-width) - var(--sidebar-width));
 --decorator-horizontal-margin: 0.2in;
 --sidebar-horizontal-padding: 0.2in;
@@ -32002,7 +32002,7 @@ box-sizing: border-box;
 --decorator-outer-dim: 9px;
 --decorator-border: 1px solid #ccc;
 --row-blocks-padding-top: 0.5rem;
---date-block-width: 0.7in;
+--date-block-width: 0.6in;
 --main-blocks-title-icon-offset-left: calc(-17pt - 0.25 * var(--root-font-size));
 --viewer-background-color: #dcdcdc;
 --viewer-pages-spacing: 12px;
@@ -32335,8 +32335,12 @@ width: unset;
 --main-width: calc(var(--content-width) - var(--sidebar-width));
 --decorator-horizontal-margin: 0.2in;
 }
-[data-id="nodecorator"] {
---decorator-border: none;
+.pagedjs_page:nth-of-type(1),
+.pagedjs_page:nth-of-type(2) {
+--decorator-border: 1px solid #ccc;
+}
+.pagedjs_page:nth-of-type(n+3) {
+--decorator-border: 1px solid white;
 }
 </style>
 <div id="aside" class="section level1">
@@ -32356,35 +32360,55 @@ width: unset;
 <div id="skills" class="section level2">
 <h2>Skills</h2>
 <ul>
-<li><p>Bioinformatics, Data Analysis &amp; Visualization</p></li>
-<li><p>Illumina NGS Platforms and Sequencing Technologies</p></li>
-<li><p>Infectious Diseases and Microbiome</p></li>
-<li><p>R, Linux/Unix, Nextflow, Git, AWS</p></li>
-<li><p>Leadership, Mentorship, and Interdisciplinary Collaboration</p></li>
+<li>Bioinformatics Pipeline Development (Nextflow, HPC, Cloud Computing)</li>
+<li>Data Infrastructure (Git, FAIR data frameworks, reproducible systems)</li>
+<li>NGS Platforms (Illumina, WGS, amplicon, hybrid capture, RNASeq)</li>
+<li>Multi-Omics Analysis (RNASeq, pangenomics, metabolic enrichment)</li>
+<li>Interactive Tool Development (R Shiny, interactive dashboards)</li>
+<li>Data Analysis &amp; Visualization</li>
+<li>Microbial Genomics &amp; Microbiome</li>
+<li>Leadership, Mentorship &amp; Interdisciplinary Collaboration</li>
 </ul>
-</div>
-<div id="disclaimer" class="section level2">
-<h2>Disclaimer</h2>
-<p>This resume was made with the R package <a href="https://github.com/rstudio/pagedown">pagedown</a>.</p>
-<p>Last updated on 2026-03-29</p>
 </div>
 </div>
 <div id="main" class="section level1">
 <h1>Main</h1>
 <div id="title" class="section level2">
 <h2>Isabel Fernández Escapa</h2>
-<div id="bioinformatics-microbiology-data-science-biotech" class="section level3">
-<h3>BIOINFORMATICS | MICROBIOLOGY | DATA SCIENCE | BIOTECH</h3>
-<p>A microbiologist highly experienced in NGS applications and bioinformatics, with a deep knowledge of bacterial physiology and microbial communities. A proficient problem solver, capable of envisioning product solutions while working closely with laboratory scientists, product managers, software developers and senior leadership.</p>
+<div id="microbiology-bioinformatics-infrastructure" class="section level3">
+<h3>MICROBIOLOGY | BIOINFORMATICS | INFRASTRUCTURE</h3>
+<p>Computational microbiologist with 15+ years of experience building reproducible workflows that accelerate discovery and make complex data accessible to interdisciplinary teams. I combine deep knowledge of bacterial physiology and microbial communities with a proven ability to design and deploy scalable bioinformatics systems. A proficient problem solver who bridges wet-lab science and computational engineering, capable of envisioning product solutions and driving them from concept to deployment while working closely with laboratory scientists, product managers, software developers, and senior leadership.</p>
 </div>
 </div>
-<div id="professional-experience" class="section level2" data-icon="suitcase">
+<div id="professional-experience" class="section level2" data-icon="briefcase">
 <h2>Professional Experience</h2>
+<div id="assistant-professor-k.p.-lemon-lab" class="section level3">
+<h3>Assistant Professor (K.P. Lemon Lab)</h3>
+<p>Baylor College of Medicine, MVM Dept.</p>
+<p>Houston, TX</p>
+<p>Jul/2024 - Present</p>
+<ul>
+<li>Built an interactive Shiny app providing customizable access to complex RNASeq datasets empowering researchers without computational expertise to explore results independently.</li>
+<li>Designed a Data Analysis and Laboratory Information Integrity Core for a multi-PI grant proposal, encompassing standardized pipelines for multi-omics, FAIR data management frameworks, and visualization dashboards across collaborative projects.</li>
+<li>Contributed to all lab grant proposals as bioinformatics lead, providing preliminary analyses, visualizations, and methodological sections, as well as input on experimental design and overall scientific scope.</li>
+</ul>
+</div>
+<div id="bioinformatics-manager-k.p.-lemon-lab" class="section level3">
+<h3>Bioinformatics Manager (K.P. Lemon Lab)</h3>
+<p>Baylor College of Medicine, MVM Dept.</p>
+<p>Houston, TX</p>
+<p>May/2023 - Jun/2024</p>
+<ul>
+<li>Architected a data management framework integrating code version control and data storage, with portable environment variable configurations enabling reproducible code execution across team members’ systems.</li>
+<li>Established bioinformatics workflows, including pangenomics, phylogenomics, metabolic predictions, and host-microbe dual RNASeq.</li>
+<li>Mentored and supervised technicians and students in programming, data visualization, statistical modeling, and best documentation practices to ensure scientific rigor and reproducibility across all lab publications.</li>
+</ul>
+</div>
 <div id="associate-director-bioinformatics" class="section level3">
 <h3>Associate Director, Bioinformatics</h3>
 <p>Pandemic Response Lab (PRL)</p>
 <p>New York City, NY</p>
-<p>Jun 2022</p>
+<p>Jun/2022 - Feb/2023</p>
 <ul>
 <li>Provided subject matter expertise on the streamlining and automation of end to end NGS lab operations: sample accessioning, LIMS design, bioinformatic and QC analysis, report generation and data delivery.</li>
 <li>Designed the architecture and supervised the development of a NextFlow based modular environment to fully automate all bioinformatic steps, including integration with in-house LIMS system, QC analysis, and data storage/delivery.</li>
@@ -32414,7 +32438,7 @@ width: unset;
 </div>
 <div id="senior-staff-scientist-bioinformatics" class="section level3">
 <h3>Senior Staff Scientist, Bioinformatics</h3>
-<p>Baylor College of Medicine</p>
+<p>Baylor College of Medicine, MVM Dept.</p>
 <p>Houston, TX</p>
 <p>Sep/2019 - Apr/2021</p>
 <ul>
@@ -32424,8 +32448,8 @@ width: unset;
 <li>Mentored students and research assistants on bioinformatics and data analysis.</li>
 </ul>
 </div>
-<div id="sequencing-and-bioinformatics-core-director" class="section level3">
-<h3>Sequencing and Bioinformatics Core Director</h3>
+<div id="sequencing-and-bioinformatics-core-director-assistant-investigator" class="section level3">
+<h3>Sequencing and Bioinformatics Core Director / Assistant Investigator</h3>
 <p>The Forsyth Institute</p>
 <p>Cambridge, MA</p>
 <p>Nov/2017 - Aug/2019</p>
@@ -32435,44 +32459,27 @@ width: unset;
 <li>Managed the team of research associates and bioinformaticians on the day to day operations of the Core to serve internal and external clients (academic collaborations and commercial services).</li>
 </ul>
 </div>
-</div>
-<div id="academic-appointments-awards" class="section level2" data-icon="school">
-<h2>Academic Appointments &amp; Awards</h2>
-<div id="assistant-investigator" class="section level3">
-<h3>Assistant Investigator</h3>
-<p>The Forsyth Institute</p>
-<p>Cambridge, MA</p>
-<p>Mar/2019 - Aug/2019</p>
-</div>
-<div id="research-fellow" class="section level3">
-<h3>Research Fellow</h3>
-<p>Harvard School of Dental Medicine, Department of Oral Medicine, Infection, and Immunity</p>
-<p>Boston, MA</p>
-<p>Nov/2012 - Aug/2019</p>
-</div>
-<div id="post-doctoral-fellow" class="section level3">
-<h3>Post-Doctoral Fellow</h3>
-<p>The Forsyth Institute, Katherine P. Lemon Lab</p>
+<div id="research-post-doctoral-fellow-k.p.-lemon-lab" class="section level3">
+<h3>Research / Post-Doctoral Fellow (K.P. Lemon Lab)</h3>
+<p>The Forsyth Institute / Harvard School of Dental Medicine</p>
 <p>Cambridge, MA</p>
 <p>Nov/2012 - Nov/2017</p>
 <ul>
-<li>Harvard Catalyst Reactor Program Pilot Grant. Human Oral Microbiome Collaboration Opportunity. “Expanding the HOMD to Include Sinonasal- and Skin-associated Bacteria”. Role: Co-Investigator. Mar 2016 - Mar 2017.</li>
-<li>Ramón Areces Foundation Postdoctoral Fellowship. Oct 2013 - Oct 2015.</li>
+<li>Investigated small-molecule-mediated interactions between <em>Cutibacterium</em> spp. and <em>Staphylococcus aureus</em>, studying their impact on <em>S. aureus</em> biofilm formation and aggregation behavior.</li>
+<li>Led the expansion of the Human Oral Microbiome Database (eHOMD) and its high-resolution RDP classifier training set to encompass bacteria from the entire human aerodigestive/respiratory tract.</li>
 </ul>
 </div>
 </div>
-<div id="education-fellowships" class="section level2" data-icon="graduation-cap" data-concise="true">
-<h2>Education &amp; Fellowships</h2>
+<div id="education" class="section level2" data-icon="graduation-cap">
+<h2>Education</h2>
 <div id="ph.d.-biochemistry-and-molecular-biology" class="section level3">
 <h3>Ph.D., Biochemistry and Molecular Biology</h3>
 <p>Complutense University of Madrid / Center for Biological Research (CIB/CSIC)</p>
 <p>Madrid, Spain</p>
 <p>Sep/2006 - May/2012</p>
-<p><strong>Thesis</strong>: “Study of polyhydroxyalkanoates metabolism in <em>Pseudomonas putida</em>: Physiological implications and further applications in the development of functionalized bioplastics”. Supervisor: Dra. María Auxiliadora Prieto.</p>
 <ul>
-<li>CSIC I3P Program Travel Fellowship at the Faculty of Biochemical and Chemical Engineering, TU Dortmund, Germany. Apr 2009 - July 2009.</li>
-<li>CSIC I3P Program Predoctoral Fellowship. Jan 2007 - Dec 2010.</li>
-<li>CSIC Research Introduction Program Fellowship. Sep 2006 - Dec 2006.</li>
+<li><strong>Thesis Title</strong>: “Study of polyhydroxyalkanoates metabolism in <em>Pseudomonas putida</em>: Physiological implications and further applications in the development of functionalized bioplastics”. Supervisor: Dra. María Auxiliadora Prieto.</li>
+<li>Applied bacterial genetics, metabolic engineering, and early multi-omics approaches to study polyhydroxyalkanoate biosynthesis in <em>P. putida</em>, developing industrial applications for microbially-produced bioplastics.</li>
 </ul>
 </div>
 <div id="b.sc.-biology" class="section level3">
@@ -32480,48 +32487,55 @@ width: unset;
 <p>University of León</p>
 <p>León, Spain</p>
 <p>Sep/2001 - Jun/2006</p>
+</div>
+</div>
+<div id="grants-fellowships-awards" class="section level2" data-icon="award">
+<h2>Grants, Fellowships &amp; Awards</h2>
 <ul>
-<li>Fellowship for Collaboration at the Biochemistry and Molecular Biology Department (Science and Education National Department). Sep 2005 - Jun 2006.</li>
+<li>Harvard Catalyst Reactor Program Pilot Grant. Human Oral Microbiome Collaboration Opportunity. “Expanding the HOMD to Include Sinonasal- and Skin-associated Bacteria”. <strong>Role: Co-Investigator</strong>. Mar 2016 - Mar 2017.</li>
+<li>Ramón Areces Foundation Postdoctoral Fellowship. Oct 2013 - Oct 2015.</li>
+<li>CSIC I3P Program Travel Fellowship at the Faculty of Biochemical and Chemical Engineering, TU Dortmund, Germany. Apr 2009 - July 2009.</li>
+<li>CSIC I3P Program Predoctoral Fellowship. Jan 2007 - Dec 2010.</li>
+<li>CSIC Research Introduction Program Fellowship. Sep 2006 - Dec 2006.</li>
+<li>Science &amp; Education National Department Undergrad Fellowship. Sep 2005 - Jun 2006.</li>
 <li>CSIC Research Introduction Program Fellowship at the Agricultural Research Station (EAE-CSIC). Jul 2005 - Sep 2005.</li>
 <li>University of León Educative Cooperation Program Fellowship for an Internship at ANTIBIÓTICOS S.A.U. Industries. Jul 2004 - Sep 2004.</li>
 </ul>
 </div>
-</div>
-<div id="nodecorator" class="section level2" data-icon="NULL">
-<h2><br></h2>
-</div>
-<div id="scientific-publications" class="section level2" data-icon="newspaper">
+<div id="scientific-publications" class="section level2" data-icon="file-text">
 <h2>Scientific publications</h2>
 <ul>
-<li>Kafer LA, Escapa IF, Boyd AI, et al. Streptococcus pneumoniae colonization modulates human nasal epithelial responses to respiratory syncytial virus infection. Preprint. bioRxiv. 2026;2026.02.05.703985. Published 2026 Feb 5. <span class="citation">(Kafer et al., 2026)</span></li>
-<li>Boyd AI, Kafer LA, Escapa IF, Kambal A, Tariq H, Hilsenbeck SG, Nguyen-Phuc H, Rajan A, Lensmire JM, Patras KA, Piedra PA, Blutt SE, Lemon KP. Nasal microbionts differentially colonize and elicit cytokines in human nasal epithelial organoids. mSphere. 2025 Oct 29;10(10):e0049325. PMID: 41025782. <span class="citation">(Boyd et al., 2025)</span></li>
-<li>Popowitch EB, Tran TH, Escapa IF, Bhatt E, Sozat AK, Ahmed N, Deming C, Roberts AQ, Segre JA, Kong HH, Conlan S, Lemon KP, Kelly MS. Description of two novel Corynebacterium species isolated from human nasal passages and skin. bioRxiv. 2024 Nov 21. doi: 10.1101/2024.11.21.624533. PMID: 39605597. <span class="citation">(Popowitch et al., 2024)</span></li>
-<li>Tran TH, Escapa IF, Roberts AQ, Gao W, Obawemimo AC, Segre JA, Kong HH, Conlan S, Kelly MS, Lemon KP. Metabolic capabilities are highly conserved among human nasal-associated Corynebacterium species in pangenomic analyses. mSystems. 2024 Dec 17;9(12):e0113224. PMID: 39508593. <span class="citation">(Tran et al., 2024)</span></li>
-<li>Michael J. Hammerling, Shinyoung Clair Kang, William Ward, <strong>Escapa, I.F</strong>, Pradeep Bugga, Cybill Del Castillo, Melissa Hopkins, Steven Chase, Sol Rey, Dylan Law, Alexander Carpio, Katharine Nelson, Simran Chhabria, Simran Gupta, Tiara Rivera, Jon M. Laurent, Haiping Hao, Henry H. Lee. (2022). Development and scaling of a sequencing pipeline for genomic surveillance of SARS-CoV-2 in New York City. medRxiv. doi.org/10.1101/2022.05.25.22273991. <span class="citation">(Hammerling et al., 2022)</span></li>
-<li>Flores Ramos, S., Brugger, S.D., <strong>Escapa, I.F</strong>, Skeete, C.A., Cotton S.L., Eslami, S.M., Gao, W., Bomar, L., Tran, T.H., Jones, D.S., Minot, S., Roberts, R.J., Johnston, C.D., Lemon, K.P (2021). Genomic Stability and Genetic Defense Systems in Dolosigranulum pigrum, a Candidate Beneficial Bacterium from the Human Microbiome. mSystems. Oct 26;6(5):e0042521. <span class="citation">(Flores Ramos et al., 2021)</span></li>
-<li>Brugger, S.D., Eslami, S.M., Pettigrew, M.M., <strong>Escapa, I.F</strong>, Henke, M.M, Kong, Y., Lemon, K.P. (2020). Dolosigranulum pigrum cooperation and competition in human nasal microbiota. mSphere. Sep 9;5(5):e00852-20. <span class="citation">(Brugger et al., 2020)</span></li>
-<li><strong>Escapa, I.F</strong>, Huang, Y., Chen, T., Lin, M., Kokaras, A., Dewhirst, F.E., Lemon, K.P. (2020) Construction of habitat-specific training sets to achieve species-level assignment in 16S rRNA gene datasets. Microbiome. 8, 65. <span class="citation">(F. Escapa et al., 2020)</span></li>
-<li><strong>Escapa, I.F</strong>, Chen, T., Huang, Y., Gajare, P., Dewhirst, F.E., Lemon, K.P. (2018). New Insights into Human Nostril Microbiome from the Expanded Human Oral Microbiome Database (eHOMD): a Resource for the Microbiome of the Human Aerodigestive Tract. mSystems. Dec 4;3(6):e00187-18. <span class="citation">(Escapa et al., 2018)</span></li>
-<li>Wollenberg, M.S., Claesen, J., <strong>Escapa, I.F</strong>, Aldridge, K.L., Fischbach, M.A., Lemon, K.P. (2014). Propionibacterium-produced coproporphyrin III induces Staphylococcus aureus aggregation and biofilm formation. MBio. Jul 22;5(4):e01286-14. <span class="citation">(Wollenberg et al., 2014)</span></li>
-<li>Prieto, A., <strong>Escapa, I.F</strong>, Martínez, V., Dinjaski, N., Herencias, C., de la Peña, F., Tarazona, N., Revelles, O. (2014). A holistic view of polyhydroxyalkanoate metabolism in Pseudomonas putida. Environ. Microbiol. 18(2):341-57. <span class="citation">(Prieto et al., 2015)</span></li>
-<li>Follonier, S., <strong>Escapa, I.F</strong>, Fonseca, P.M., Henes, B., Panke, S., Zinn, M., Prieto, M.A. (2013). New insights on the reorganization of gene transcription in Pseudomonas putida KT2440 at elevated pressure. Microb Cell Fact. 12:30. <span class="citation">(Follonier et al., 2013)</span></li>
-<li><strong>Escapa, I.F</strong>, del Cerro, C., García, J. L., and Prieto, M. A. (2013). The role of GlpR repressor in Pseudomonas putida KT2440 growth and PHA production from glycerol. Environ. Microbiol. 15(1):93-110. <span class="citation">(Escapa et al., 2012b)</span></li>
-<li>Poblete-Castro, I., <strong>Escapa, I.F</strong>, Jäger, C., Puchalka, J., Lam, C. M. C., Schomburg, D., Prieto, M. A., and Martins dos Santos V.A.P. (2012). The metabolic response of P. putida KT2442 producing high levels of polyhydroxyalkanoate under singleand multiple-nutrient-limited growth: Highlights from a multi-level omics approach. Micro Cell Fac, 11:34. <span class="citation">(Poblete-Castro et al., 2012)</span></li>
-<li><strong>Escapa, I.F</strong>, García, J. L., Bühler, B., Blank, L. M., and Prieto, M. A. (2012). The polyhydroxyalkanoate metabolism controls carbon and energy spillage in Pseudomonas putida. Environ. Microbiol. 14(4):1049-63. <span class="citation">(Escapa et al., 2012a)</span></li>
-<li><strong>Escapa, I.F</strong>, Morales, V., Martino, V. P., Pollet, E., Averous, L., García, J. L., and Prieto, M. A. (2011). Disruption of beta-oxidation pathway in Pseudomonas putida KT2442 to produce new functionalized PHAs with thioester groups. Appl. Microbiol. Biotechnol. 89(5):1583-1598. <span class="citation">(Escapa et al., 2011)</span></li>
-<li>Galán, B., Dinjaski, N., Maestro, B., de Eugenio, L. I., <strong>Escapa, I.F</strong>, Sanz, J. M., García, J. L., and Prieto, M. A. (2011). Nucleoid-associated PhaF phasin drives intracellular location and segregation of polyhydroxyalkanoate granules in Pseudomonas putida KT2442. Mol. Microbiol. 79:402-418. <span class="citation">(Galán et al., 2010)</span></li>
-<li>de Eugenio, L. I., Galán, B., <strong>Escapa, I.F</strong>, Maestro, B., Sanz, J. M., García, J. L., and Prieto, M. A. (2010). The PhaD regulator controls the simultaneous expression of the pha genes involved in polyhydroxyalkanoate metabolism and turnover in Pseudomonas putida KT2442. Environ. Microbiol. 12:1591-1603. <span class="citation">(De Eugenio et al., 2010)</span></li>
-<li>de Eugenio, L. I., <strong>Escapa, I.F</strong>, Morales, V., Dinjaski, N., Galán, B., García, J. L., and Prieto, M. A. (2010). The turnover of medium-chain-length polyhydroxyalkanoates in Pseudomonas putida KT2442 and the fundamental role of PhaZ depolymerase for the metabolic balance. Environ. Microbiol. 12:207-221. <span class="citation">(De Eugenio et al., 2009)</span></li>
+<li>Boyd, A. I., Quintanilla, K. A., <strong>Escapa, I. F.</strong>, Lewis, M. A., Kafer, L. A., Zeng, X. L., Blutt, S. E., Ibberson, C. B., &amp; Lemon, K. P. (2026). D-alanine aminotransferase (Dat) promotes <em>Staphylococcus aureus</em> colonization fitness on human nasal respiratory epithelium. Preprint. bioRxiv. 2026.06.01.729472.</li>
+<li>Kafer, L. A., <strong>Escapa, I. F.</strong>, Boyd, A. I., Tostado, A. R., Kambal, A., Blutt, S. E., Avadhanula, V., Piedra, P. A., and Lemon, K. P. (2026). <em>Streptococcus pneumoniae</em> colonization modulates human nasal epithelial responses to respiratory syncytial virus infection. Preprint. bioRxiv. 2026.02.05.703985.</li>
+<li>Boyd, A. I., Kafer, L. A., <strong>Escapa, I. F.</strong>, Kambal, A., Tariq, H., Hilsenbeck, S. G., Nguyen-Phuc, H., Rajan, A., Lensmire, J. M., Patras, K. A., Piedra, P.A., Blutt, S. E., and Lemon, K. P. (2025). Nasal microbionts differentially colonize and elicit cytokines in human nasal epithelial organoids. mSphere. Oct 29;10(10):e0049325.</li>
+<li>Popowitch, E. B., Tran, T. H., <strong>Escapa, I. F.</strong>, Bhatt, E., Sozat, A. K., Ahmed, N., Deming, C., Roberts, A. Q., Segre, J. A., Kong, H. H., Conlan, S., Lemon, K.P., and Kelly, M.S. (2024). Description of two novel <em>Corynebacterium</em> species isolated from human nasal passages and skin. Preprint. bioRxiv. 2024.11.21.624533.</li>
+<li>Tran, T. H., <strong>Escapa, I. F.</strong>, Roberts, A. Q., Gao, W., Obawemimo, A. C., Segre, J. A., Kong, H. H., Conlan, S., Kelly, M. S., and Lemon, K. P. (2024). Metabolic capabilities are highly conserved among human nasal-associated <em>Corynebacterium</em> species in pangenomic analyses. mSystems. Dec 17;9(12):e0113224.</li>
+<li>Hammerling, M. J., Kang, S. C., Ward, W., <strong>Escapa, I. F.</strong>, Bugga, P., Del Castillo, C., Hopkins, M., Chase, S., Rey, S., Law, D., Carpio, A., Nelson, K., Chhabria, S., Gupta, S., Rivera, T., Laurent, J.M., Hao, H., and Lee, H.H. (2022). Development and scaling of a sequencing pipeline for genomic surveillance of SARS-CoV-2 in New York City. Preprint medRxiv. 2022.05.25.22273991.</li>
+<li>Flores Ramos, S., Brugger, S.D., <strong>Escapa, I. F.</strong>, Skeete, C.A., Cotton S.L., Eslami, S.M., Gao, W., Bomar, L., Tran, T.H., Jones, D.S., Minot, S., Roberts, R.J., Johnston, C.D., and Lemon, K.P (2021). Genomic stability and genetic defense systems in <em>Dolosigranulum pigrum</em>, a candidate beneficial bacterium from the human microbiome. mSystems. Oct 26;6(5):e0042521.</li>
+<li>Brugger, S.D., Eslami, S.M., Pettigrew, M.M., <strong>Escapa, I. F.</strong>, Henke, M. M., Kong, Y., and Lemon, K.P. (2020). <em>Dolosigranulum pigrum</em> cooperation and competition in human nasal microbiota. mSphere. Sep 9;5(5):e00852-20.</li>
+<li><strong>Escapa, I. F.</strong>, Huang, Y., Chen, T., Lin, M., Kokaras, A., Dewhirst, F. E., and Lemon, K.P. (2020) Construction of habitat-specific training sets to achieve species-level assignment in 16S rRNA gene datasets. Microbiome. 8, 65.</li>
+<li><strong>Escapa, I. F.</strong>, Chen, T., Huang, Y., Gajare, P., Dewhirst, F. E., and Lemon, K.P. (2018). New insights into human nostril microbiome from the Expanded Human Oral Microbiome Database (eHOMD): a resource for the microbiome of the human aerodigestive tract. mSystems. Dec 4;3(6):e00187-18.</li>
+<li>Wollenberg, M. S., Claesen, J., <strong>Escapa, I. F.</strong>, Aldridge, K.L., Fischbach, M. A., and Lemon, K.P. (2014). <em>Propionibacterium</em>-produced coproporphyrin III induces <em>Staphylococcus aureus</em> aggregation and biofilm formation. MBio. Jul 22;5(4):e01286-14.</li>
+<li>Prieto, A., <strong>Escapa, I. F.</strong>, Martínez, V., Dinjaski, N., Herencias, C., de la Peña, F., Tarazona, and N., Revelles, O. (2014). A holistic view of polyhydroxyalkanoate metabolism in <em>Pseudomonas putida</em>. Environ. Microbiol. 18(2):341-57.</li>
+<li>Follonier, S., <strong>Escapa, I. F.</strong>, Fonseca, P.M., Henes, B., Panke, S., Zinn, M., and Prieto, M. A. (2013). New insights on the reorganization of gene transcription in <em>Pseudomonas putida</em> KT2440 at elevated pressure. Microb Cell Fact. 12:30.</li>
+<li><strong>Escapa, I. F.</strong>, del Cerro, C., García, J. L., and Prieto, M. A. (2013). The role of GlpR repressor in <em>Pseudomonas putida</em> KT2440 growth and PHA production from glycerol. Environ. Microbiol. 15(1):93-110.</li>
+<li>Poblete-Castro, I., <strong>Escapa, I. F.</strong>, Jäger, C., Puchalka, J., Lam, C. M. C., Schomburg, D., Prieto, M. A., and Martins dos Santos V.A.P. (2012). The metabolic response of <em>P. putida</em> KT2442 producing high levels of polyhydroxyalkanoate under singleand multiple-nutrient-limited growth: Highlights from a multi-level omics approach. Micro Cell Fac, 11:34.</li>
+<li><strong>Escapa, I. F.</strong>, García, J. L., Bühler, B., Blank, L. M., and Prieto, M. A. (2012). The polyhydroxyalkanoate metabolism controls carbon and energy spillage in <em>Pseudomonas putida</em>. Environ. Microbiol. 14(4):1049-63.</li>
+<li><strong>Escapa, I. F.</strong>, Morales, V., Martino, V. P., Pollet, E., Averous, L., García, J. L., and Prieto, M. A. (2011). Disruption of beta-oxidation pathway in <em>Pseudomonas putida</em> KT2442 to produce new functionalized PHAs with thioester groups. Appl. Microbiol. Biotechnol. 89(5):1583-1598.</li>
+<li>Galán, B., Dinjaski, N., Maestro, B., de Eugenio, L. I., <strong>Escapa, I. F.</strong>, Sanz, J. M., García, J. L., and Prieto, M. A. (2011). Nucleoid-associated PhaF phasin drives intracellular location and segregation of polyhydroxyalkanoate granules in <em>P. putida</em> KT2442. Mol. Microbiol. 79:402-418.</li>
+<li>de Eugenio, L. I., Galán, B., <strong>Escapa, I. F.</strong>, Maestro, B., Sanz, J. M., García, J. L., and Prieto, M. A. (2010). The PhaD regulator controls the simultaneous expression of the pha genes involved in polyhydroxyalkanoate metabolism and turnover in <em>Pseudomonas putida</em> KT2442. Environ. Microbiol. 12:1591-1603.</li>
+<li>de Eugenio, L. I., <strong>Escapa, I. F.</strong>, Morales, V., Dinjaski, N., Galán, B., García, J. L., and Prieto, M. A. (2010). The turnover of medium-chain-length polyhydroxyalkanoates in <em>Pseudomonas putida</em> KT2442 and the fundamental role of PhaZ depolymerase for the metabolic balance. Environ. Microbiol. 12:207-221.</li>
 </ul>
 </div>
-<div id="patents" class="section level2" data-icon="file">
+<div id="patents" class="section level2" data-icon="lightbulb">
 <h2>Patents</h2>
 <ul>
-<li><strong>Escapa, I.F</strong>, del Cerro, C., García, J. L., and Prieto, M. A. “A system for the improvement of polyhydroxyalkanoates production (bioplastic) from glycerol in genetically modified Pseudomonas putida”. Application number: P201131846, Spain, 16th November, 2011. Titular entity: Spanish National Research Council (CSIC). PCT international extension number: ES2012/070793.</li>
-<li><strong>Escapa, I.F</strong>, Morales V., García J.L., and Prieto M.A. “Synthesis of polyhydroxyalkanoates (PHA) with thioester groups in the side chain”. Application number: P201031401, Spain, 21st September, 2010. Titular entity: Spanish National Research Council (CSIC). Patent licenses by Biopolis S.L. PCT international extension number: ES2011/070654.</li>
+<li>Huang, Y., <strong>Escapa, I. F.</strong>, Lemon, K. P., and Dewhirst, F. E. “System and Method for achieving high gene data resolution using training sets.”. Titular entity: The Forsyth Institute. Priority Data: 62/775,997, 06.12.2018, US. International Application No: PCT/US2019/053634.</li>
+<li><strong>Escapa, I. F.</strong>, del Cerro, C., García, J. L., and Prieto, M. A. “A system for the improvement of polyhydroxyalkanoates production (bioplastic) from glycerol in genetically modified <em>Pseudomonas putida</em>”. Application number: P201131846, Spain, 16th November, 2011. Titular entity: Spanish National Research Council (CSIC). PCT international extension number: ES2012/070793.</li>
+<li><strong>Escapa, I. F.</strong>, Morales V., García J. L., and Prieto M. A. “Synthesis of polyhydroxyalkanoates (PHA) with thioester groups in the side chain”. Application number: P201031401, Spain, 21st September, 2010. Titular entity: Spanish National Research Council (CSIC). Patent licenses by Biopolis S.L. PCT international extension number: ES2011/070654.</li>
 </ul>
 </div>
-<div id="invited-talks" class="section level2" data-icon="award">
+<div id="invited-talks" class="section level2" data-icon="microphone">
 <h2>Invited talks</h2>
 <ul>
 <li>Polymer Biotechnology Group. Biological Research Center, Madrid, Spain. “Beneficial Microbes: From Biotechnological Applications of PHAs to Microbiome-based Diagnostics and Therapeutics”. May 2019.</li>
@@ -32534,22 +32548,23 @@ width: unset;
 <div id="contributions-to-conferences" class="section level2" data-icon="users">
 <h2>Contributions to conferences</h2>
 <ul>
-<li>Huang Y., <strong>Escapa I.F.</strong>, Chen T. Lin M., Kokaras A., Dewhirst F.E., Lemon K.P. Achieving species-level resolution from 16S rRNA gene short-read data using a high-resolution training set with the RDP naïve Bayesian Classifier. Poster. XXV Boston Bacterial Meeting, Boston (USA). Jun 2019.</li>
-<li><strong>Escapa I.F.</strong> eHOMD: an expanded database and a new microbiome analysis pipeline. Oral Communication. XVII Mark Wilson Conference, XXVIII Annual Meeting of the Oral Immunology/Microbiology Research Group Cancun (Mexico). Feb 2018.</li>
-<li><strong>Escapa I.F.</strong>, Wollenberg M.S., Aldridge K.L., Sivanathan V., Hochschild A., Lemon K.P. Role of Sbp in Staphylococcus aureus biofilm formation. Poster. XXII Boston Bacterial Meeting, Boston (USA). Jun 2016.</li>
-<li><strong>Escapa I.F.</strong>, Wollenberg M.S., Aldridge K.L., Lemon K.P. A newly identified extracellular protein involved in Staphylococcus aureus biofilm formation. Poster. XX Boston Bacterial Meeting, Boston (USA). Jun 2014.</li>
-<li><strong>Escapa I.F.</strong>, Wollenberg M.S., Aldridge K.L., Lemon K.P. A newly identified extracellular protein involved in Staphylococcus aureus biofilm formation. Poster. V American Society for Microbiology Conference on Beneficial Microbes, Washington DC (USA). Sep 2014.</li>
-<li>Wollenberg M.S., Claesen J., <strong>Escapa I.F</strong>, Aldridge K.L., Fischbach M.A., Lemon K.P. Propionibacterium-produced extracellular coproporphyrin III induces Staphylococcus aureus aggregation and biofilm formation. V American Society for Microbiology Conference on Beneficial Microbes, Washington DC (USA). Sep 2014.</li>
-<li>Morales V., <strong>Escapa I.F.</strong>, Prieto. M.A., Martino V., Pollet E. and Avérous L. Production and characterization of functionalized medium-chain-length polyhydroxyalkanoates containing thioester groups in the side chain. Poster. International Symposium on Biopolymers (ISBP2010), Stuttgart (Germany). Oct 2010.</li>
-<li><strong>Escapa I.F.</strong>, Morales V., Martino V., Pollet E., Avérous L., and Prieto. M.A. Engineering Pseudomonas putida KT2442 for the production of new functionalized polyhydroxyalkanoates containing thioester groups in the side chain. Oral Communication. BIOTEC2010, V International Meeting on Biotechnology, Pamplona (Spain). Sep-Oct 2010.</li>
-<li><strong>Escapa I.F.</strong>, Nogales J., Díaz E., García J.L., Bühler B., Blank L. M. and Prieto M.A. Influence of Polyhydroxyalkanoate Content on Central Carbon Metabolism Operation of Pseudomonas putida KT2442. Poster. Systems Biology of Microorganisms, Paris (France). Mar 2010.</li>
-<li>de Eugenio L.I., <strong>Escapa I.F.</strong>, Morales V., Dinjaski N., Galán B., García J.L., and Prieto M.A. The PHA turnover allows carbon flux adaptations in Pseudomonas putida KT2442. Poster. European Symposium on Biopolymers (ESBP09), Madeira (Portugal). Nov 2009.</li>
-<li><strong>Escapa I.F.</strong>, Morales V., García J.L., and Prieto M.A. Production of functionalized polyhydroxyalkanoates by an alternative beta-oxidation pathway in Pseudomonas putida KT2442. Poster (Awarded as best poster communication). European Symposium on Biopolymers (ESBP09), Madeira (Portugal). Nov 2009.</li>
-<li>de Eugenio L.I., <strong>Escapa I.F.</strong>, Morales V., Dinjaski N., Galán B., García J.L., and Prieto M.A. Redirecting polyhydroxyalkanoate metabolism balance towards the bioproduction of chiral intermediates in Pseudomonas putida KT2442. Poster. European congress on biotechnology (ECB14), Barcelona (Spain). Sep 2009.</li>
-<li>Poblete Castro I., <strong>Escapa I.F.</strong>, Prieto M.A., Jäger C., Schomburg D., Puchalka J. and Martins dos Santos V.A.P. Título: “Omics” analysis of Medium-Chain-Length Poly-3-Hydroxyalkanoate synthesis in Pseudomonas putida KT2442 under different nutrient limitations. Poster. Pseudomonas 09, XII International Conference, Hannover (Germany). Aug 2009.</li>
-<li><strong>Escapa I.F.</strong>, de Eugenio L.I., Nogales J., Díaz E., García J.L. and Prieto M.A. A Systems Biology Approach for Studying the Polyhydroxyalkanoate Metabolism in Pseudomonas putida KT2442. Poster. Pseudomonas 09, XII International Conference, Hannover (Germany). Aug 2009.</li>
-<li><strong>Escapa I.F.</strong>, de Eugenio L.I., Galán B., García J.L. and Prieto M.A. New insights into polyhydroxyalkanoate metabolism regulation in Pseudomonas putida KT2442. Oral Communication. BIOTEC2008, IV International Meeting on Biotechnology, Granada (Spain). Sep 2008.</li>
-<li>de Eugenio L.I., <strong>Escapa I.F.</strong>, Galán B., García J.L. and Prieto M.A. Polyhydroxyalkanoate Regulation: New Tools for Old Issues. Poster. European Symposium on Biopolymers (ESBP07), Kusadasi (Turkey). Oct 2007.</li>
+<li>Tran TH, <strong>Escapa I. F.</strong>, Roberts A. Q., Gao W., Obawemimo A. C., Segre J. A., Kong H. H., Conlan S., Kelly M. S., Lemon K. P. Pangenomic Insights into the Conserved Metabolic Capabilities of Human Nasal <em>Corynebacterium</em> Species. 2024 Cold Spring Harbor Laboratory Microbiome Meeting, NY.</li>
+<li>Huang Y., <strong>Escapa I. F.</strong>, Chen T. Lin M., Kokaras A., Dewhirst F. E., Lemon K. P. Achieving species-level resolution from 16S rRNA gene short-read data using a high-resolution training set with the RDP naïve Bayesian Classifier. XXV Boston Bacterial Meeting, Boston (USA). Jun 2019.</li>
+<li><strong>Escapa I. F.</strong> eHOMD: an expanded database and a new microbiome analysis pipeline. XVII Mark Wilson Conference, XXVIII Annual Meeting of the Oral Immunology/Microbiology Research Group Cancun (Mexico). Feb 2018. <strong>Oral Presentation</strong>.</li>
+<li><strong>Escapa I. F.</strong>, Wollenberg M. S., Aldridge K. L., Sivanathan V., Hochschild A., Lemon K. P. Role of Sbp in <em>Staphylococcus aureus</em> biofilm formation. XXII Boston Bacterial Meeting, Boston (USA). Jun 2016.</li>
+<li><strong>Escapa I. F.</strong>, Wollenberg M. S., Aldridge K. L., Lemon K. P. A newly identified extracellular protein involved in <em>Staphylococcus aureus</em> biofilm formation. XX Boston Bacterial Meeting, Boston (USA). Jun 2014.</li>
+<li><strong>Escapa I. F.</strong>, Wollenberg M. S., Aldridge K. L., Lemon K. P. A newly identified extracellular protein involved in <em>Staphylococcus aureus</em> biofilm formation. V ASM Conference on Beneficial Microbes, Washington DC (USA). Sep 2014.</li>
+<li>Wollenberg M.S., Claesen J., <strong>Escapa I. F.</strong>, Aldridge K.L., Fischbach M. A., Lemon K.P. Propionibacterium-produced extracellular coproporphyrin III induces <em>Staphylococcus aureus</em> aggregation and biofilm formation. V ASM Conference on Beneficial Microbes, Washington DC (USA). Sep 2014.</li>
+<li>Morales V., <strong>Escapa I. F.</strong>, Prieto. M. A., Martino V., Pollet E. and Avérous L. Production and characterization of functionalized medium-chain-length polyhydroxyalkanoates containing thioester groups in the side chain. International Symposium on Biopolymers (ISBP2010), Stuttgart (Germany). Oct 2010.</li>
+<li><strong>Escapa I. F.</strong>, Morales V., Martino V., Pollet E., Avérous L., and Prieto. M. A. Engineering <em>Pseudomonas putida</em> KT2442 for the production of new functionalized polyhydroxyalkanoates containing thioester groups in the side chain. BIOTEC2010, V International Meeting on Biotechnology, Pamplona (Spain). Sep-Oct 2010. <strong>Oral Presentation</strong>.</li>
+<li><strong>Escapa I. F.</strong>, Nogales J., Díaz E., García J. L., Bühler B., Blank L. M. and Prieto M. A. Influence of Polyhydroxyalkanoate Content on Central Carbon Metabolism Operation of <em>Pseudomonas putida</em> KT2442. Systems Biology of Microorganisms, Paris (France). Mar 2010.</li>
+<li>de Eugenio L. I., <strong>Escapa I. F.</strong>, Morales V., Dinjaski N., Galán B., García J. L., and Prieto M. A. The PHA turnover allows carbon flux adaptations in <em>Pseudomonas putida</em> KT2442. European Symposium on Biopolymers (ESBP09), Madeira (Portugal). Nov 2009.</li>
+<li><strong>Escapa I. F.</strong>, Morales V., García J. L., and Prieto M. A. Production of functionalized polyhydroxyalkanoates by an alternative beta-oxidation pathway in <em>Pseudomonas putida</em> KT2442. European Symposium on Biopolymers (ESBP09), Madeira (Portugal). Nov 2009. <strong>Best poster award</strong>.</li>
+<li>de Eugenio L. I., <strong>Escapa I. F.</strong>, Morales V., Dinjaski N., Galán B., García J. L., and Prieto M. A. Redirecting polyhydroxyalkanoate metabolism balance towards the bioproduction of chiral intermediates in <em>Pseudomonas putida</em> KT2442. European congress on biotechnology (ECB14), Barcelona (Spain). Sep 2009.</li>
+<li>Poblete Castro I., <strong>Escapa I. F.</strong>, Prieto M. A., Jäger C., Schomburg D., Puchalka J. and Martins dos Santos V.A.P. Título: “Omics” analysis of Medium-Chain-Length Poly-3-Hydroxyalkanoate synthesis in <em>Pseudomonas putida</em> KT2442 under different nutrient limitations. Poster. Pseudomonas 09, XII International Conference, Hannover (Germany). Aug 2009.</li>
+<li><strong>Escapa I. F.</strong>, de Eugenio L. I., Nogales J., Díaz E., García J. L. and Prieto M. A. A Systems Biology Approach for Studying the Polyhydroxyalkanoate Metabolism in <em>Pseudomonas putida</em> KT2442. Pseudomonas 09, XII International Conference, Hannover (Germany). Aug 2009.</li>
+<li><strong>Escapa I. F.</strong>, de Eugenio L. I., Galán B., García J. L. and Prieto M. A. New insights into polyhydroxyalkanoate metabolism regulation in <em>Pseudomonas putida</em> KT2442. BIOTEC2008, IV International Meeting on Biotechnology, Granada (Spain). Sep 2008. <strong>Oral Presentation</strong>.</li>
+<li>de Eugenio L. I., <strong>Escapa I. F.</strong>, Galán B., García J. L. and Prieto M. A. Polyhydroxyalkanoate Regulation: New Tools for Old Issues. European Symposium on Biopolymers (ESBP07), Kusadasi (Turkey). Oct 2007.</li>
 </ul>
 </div>
 <div id="complementary-training" class="section level2" data-icon="book">
@@ -32557,10 +32572,10 @@ width: unset;
 <ul>
 <li>Strategies and Techniques for Analyzing Microbial Population Structures (Marine Biological Laboratory, University of Chicago). Woods Hole, Massachusetts (Aug 3-13, 2016).</li>
 <li>Certificate in Applied Biostatistics (Harvard Catalyst’s Postgraduate Program in Clinical and Translational Science, Harvard Medical School). Boston, Massachusetts (Sep 2013 - May 2014).</li>
-<li>Kadner Institute for Graduate Students and Postdoctoral Scientists in Preparation for Careers in Microbiology (American Society for Microbiology). San Jose, California (Jul 27-31, 2013).</li>
+<li>Kadner Institute for Grad Students and Postdocs in Preparation for Careers in Microbiology (ASM). San Jose, California (Jul 27-31, 2013).</li>
 </ul>
 </div>
-<div id="institutional-service" class="section level2" data-icon="calendar">
+<div id="institutional-service" class="section level2" data-icon="university">
 <h2>Institutional Service</h2>
 <ul>
 <li>Member of the Mentorship Task Force, Forsyth Institute (2019).</li>
@@ -32574,77 +32589,18 @@ width: unset;
 <li>Co‐Instructor at Molecular Biotechnology BME62/162, CHBE62/162, Bio62. Tufts University, Medford, MA (Summer 2019).</li>
 </ul>
 </div>
-<div id="editorial-activities" class="section level2" data-icon="pencil">
+<div id="editorial-activities" class="section level2" data-icon="edit">
 <h2>Editorial Activities</h2>
 <ul>
-<li>Ad hoc reviewer: Microbiome, BMC Research Notes, Frontiers in Microbiology, mSphere, BDJOpen and MicrobiologyOpen.</li>
+<li>Ad hoc reviewer for Cell Reports, Nucleic Acids Research Genomics and Bioinformatics, Microbiome, Frontiers in Microbiology, mSphere, mSystems, Antimicrobial Agents and Chemotherapy, American Journal of Respiratory Cell and Molecular Biology, Applied and Environmental Microbiology, MicrobiologyOpen, British Dental Journal Open, International Society for Microbial Ecology, and BMC Research Notes.</li>
 </ul>
 </div>
-<div id="professional-societies" class="section level2" data-icon="bookmark">
+<div id="professional-societies" class="section level2" data-icon="globe">
 <h2>Professional Societies</h2>
 <ul>
 <li>Member of the American Society for Microbiology, ASM (2013–Present).</li>
 <li>Member of the Spanish Society of Biotechnology, SEBIOT (2007-Present).</li>
 </ul>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-boyd2025" class="csl-entry">
-<strong>Boyd, A. I., Kafer, L. A., F. Escapa, I., Kambal, A., Tariq, H., Hilsenbeck, S. G., Nguyen-Phuc, H., Rajan, A., Lensmire, J. M., Patras, K. A., et al.</strong> (2025). <a href="https://doi.org/10.1128/msphere.00493-25">Nasal microbionts differentially colonize and elicit cytokines in human nasal epithelial organoids</a>. <em>mSphere</em> 10,.
-</div>
-<div id="ref-brugger2020" class="csl-entry">
-<strong>Brugger, S. D., Eslami, S. M., Pettigrew, M. M., Escapa, I. F., Henke, M. T., Kong, Y. and Lemon, K. P.</strong> (2020). <a href="https://doi.org/10.1128/msphere.00852-20">Dolosigranulum pigrum Cooperation and Competition in Human Nasal Microbiota</a>. <em>mSphere</em> 5,.
-</div>
-<div id="ref-deeugenio2009" class="csl-entry">
-<strong>De Eugenio, L. I., Escapa, I. F., Morales, V., Dinjaski, N., Galán, B., García, J. L. and Prieto, M. A.</strong> (2009). <a href="https://doi.org/10.1111/j.1462-2920.2009.02061.x">The turnover of medium<span>-</span>chain<span>-</span>length polyhydroxyalkanoates in <span><em>Pseudomonas putida</em></span> KT2442 and the fundamental role of PhaZ depolymerase for the metabolic balance</a>. <em>Environmental Microbiology</em> 12, 207–221.
-</div>
-<div id="ref-deeugenio2010" class="csl-entry">
-<strong>De Eugenio, L. I., Galán, B., Escapa, I. F., Maestro, B., Sanz, J. M., García, J. L. and Prieto, M. A.</strong> (2010). <a href="https://doi.org/10.1111/j.1462-2920.2010.02199.x">The PhaD regulator controls the simultaneous expression of the <span><em>pha</em></span> genes involved in polyhydroxyalkanoate metabolism and turnover in <span><em>Pseudomonas putida</em></span> KT2442</a>. <em>Environmental Microbiology</em> 12, 1591–1603.
-</div>
-<div id="ref-escapa2011" class="csl-entry">
-<strong>Escapa, I. F., Morales, V., Martino, V. P., Pollet, E., Avérous, L., García, J. L. and Prieto, M. A.</strong> (2011). <a href="https://doi.org/10.1007/s00253-011-3099-4">Disruption of β-oxidation pathway in Pseudomonas putida KT2442 to produce new functionalized PHAs with thioester groups</a>. <em>Applied Microbiology and Biotechnology</em> 89, 1583–1598.
-</div>
-<div id="ref-escapa2012" class="csl-entry">
-<strong>Escapa, I. F., García, J. L., Bühler, B., Blank, L. M. and Prieto, M. A.</strong> (2012a). <a href="https://doi.org/10.1111/j.1462-2920.2011.02684.x">The polyhydroxyalkanoate metabolism controls carbon and energy spillage in <span><em>Pseudomonas putida</em></span></a>. <em>Environmental Microbiology</em> 14, 1049–1063.
-</div>
-<div id="ref-escapa2012a" class="csl-entry">
-<strong>Escapa, I. F., Cerro, C. del, García, J. L. and Prieto, M. A.</strong> (2012b). <a href="https://doi.org/10.1111/j.1462-2920.2012.02790.x">The role of GlpR repressor in <span><em>Pseudomonas putida</em></span> KT2440 growth and PHA production from glycerol</a>. <em>Environmental Microbiology</em> 15, 93–110.
-</div>
-<div id="ref-escapa2018" class="csl-entry">
-<strong>Escapa, I. F., Chen, T., Huang, Y., Gajare, P., Dewhirst, F. E. and Lemon, K. P.</strong> (2018). <a href="https://doi.org/10.1128/msystems.00187-18">New Insights into Human Nostril Microbiome from the Expanded Human Oral Microbiome Database (eHOMD): a Resource for the Microbiome of the Human Aerodigestive Tract</a>. <em>mSystems</em> 3,.
-</div>
-<div id="ref-f.escapa2020" class="csl-entry">
-<strong>F. Escapa, I., Huang, Y., Chen, T., Lin, M., Kokaras, A., Dewhirst, F. E. and Lemon, K. P.</strong> (2020). <a href="https://doi.org/10.1186/s40168-020-00841-w">Construction of habitat-specific training sets to achieve species-level assignment in 16S rRNA gene datasets</a>. <em>Microbiome</em> 8,.
-</div>
-<div id="ref-floresramos2021" class="csl-entry">
-<strong>Flores Ramos, S., Brugger, S. D., Escapa, I. F., Skeete, C. A., Cotton, S. L., Eslami, S. M., Gao, W., Bomar, L., Tran, T. H., Jones, D. S., et al.</strong> (2021). <a href="https://doi.org/10.1128/msystems.00425-21">Genomic Stability and Genetic Defense Systems in <span><em>Dolosigranulum pigrum</em></span> , a Candidate Beneficial Bacterium from the Human Microbiome</a>. <em>mSystems</em> 6,.
-</div>
-<div id="ref-follonier2013" class="csl-entry">
-<strong>Follonier, S., Escapa, I. F., Fonseca, P. M., Henes, B., Panke, S., Zinn, M. and Prieto, M. A.</strong> (2013). <a href="https://doi.org/10.1186/1475-2859-12-30">New insights on the reorganization of gene transcription in Pseudomonas putida KT2440 at elevated pressure</a>. <em>Microbial Cell Factories</em> 12,.
-</div>
-<div id="ref-galán2010" class="csl-entry">
-<strong>Galán, B., Dinjaski, N., Maestro, B., Eugenio, L. I. de, Escapa, I. F., Sanz, J. M., García, J. L. and Prieto, M. A.</strong> (2010). <a href="https://doi.org/10.1111/j.1365-2958.2010.07450.x">Nucleoid<span>-</span>associated PhaF phasin drives intracellular location and segregation of polyhydroxyalkanoate granules in <span><em>Pseudomonas putida</em></span> KT2442</a>. <em>Molecular Microbiology</em> 79, 402–418.
-</div>
-<div id="ref-Hammerling2022" class="csl-entry">
-<strong>Hammerling, M. J., Kang, S. C., Ward, W., Escapa, I. F., Bugga, P., Del Castillo, C., Hopkins, M., Chase, S., Rey, S., Law, D., et al.</strong> (2022). <a href="https://doi.org/10.1101/2022.05.25.22273991">Development and scaling of a sequencing pipeline for genomic surveillance of SARS-CoV-2 in new york city</a>. <em>medRxiv</em>.
-</div>
-<div id="ref-kafer2026" class="csl-entry">
-<strong>Kafer, L. A., Escapa, I. F., Boyd, A. I., Tostado, A. R., Kambal, A., Blutt, S. E., Avadhanula, V., Piedra, P. A. and Lemon, K. P.</strong> (2026). <a href="http://dx.doi.org/10.64898/2026.02.05.703985"><span><em>Streptococcus pneumoniae</em></span> colonization modulates human nasal epithelial responses to respiratory syncytial virus infection</a>.
-</div>
-<div id="ref-poblete-castro2012" class="csl-entry">
-<strong>Poblete-Castro, I., Escapa, I. F., Jäger, C., Puchalka, J., Chi Lam, C., Schomburg, D., Prieto, M. and Martins dos Santos, V. A.</strong> (2012). <a href="https://doi.org/10.1186/1475-2859-11-34">The metabolic response of P. putida KT2442 producing high levels of polyhydroxyalkanoate under single- and multiple-nutrient-limited growth: Highlights from a multi-level omics approach</a>. <em>Microbial Cell Factories</em> 11, 34.
-</div>
-<div id="ref-popowitch2024" class="csl-entry">
-<strong>Popowitch, E. B., Tran, T. H., Escapa, I. F., Bhatt, E., Sozat, A. K., Ahmed, N., Deming, C., Roberts, A. Q., Segre, J. A., Kong, H. H., et al.</strong> (2024). <a href="http://dx.doi.org/10.1101/2024.11.21.624533">Description of two novel <span><em>Corynebacterium</em></span> species isolated from human nasal passages and skin</a>.
-</div>
-<div id="ref-prieto2015" class="csl-entry">
-<strong>Prieto, A., Escapa, I. F., Martínez, V., Dinjaski, N., Herencias, C., de la Peña, F., Tarazona, N. and Revelles, O.</strong> (2015). <a href="https://doi.org/10.1111/1462-2920.12760">A holistic view of polyhydroxyalkanoate metabolism in <span><em>Pseudomonas putida</em></span></a>. <em>Environmental Microbiology</em> 18, 341–357.
-</div>
-<div id="ref-tran2024" class="csl-entry">
-<strong>Tran, T. H., F. Escapa, I., Roberts, A. Q., Gao, W., Obawemimo, A. C., Segre, J. A., Kong, H. H., Conlan, S., Kelly, M. S. and Lemon, K. P.</strong> (2024). <a href="https://doi.org/10.1128/msystems.01132-24">Metabolic capabilities are highly conserved among human nasal-associated <span><em>Corynebacterium</em></span> species in pangenomic analyses</a>. <em>mSystems</em> 9,.
-</div>
-<div id="ref-wollenberg2014" class="csl-entry">
-<strong>Wollenberg, M. S., Claesen, J., Escapa, I. F., Aldridge, K. L., Fischbach, M. A. and Lemon, K. P.</strong> (2014). <a href="https://doi.org/10.1128/mbio.01286-14"><span><em>Propionibacterium</em></span> -Produced Coproporphyrin III Induces Staphylococcus aureus Aggregation and Biofilm Formation</a>. <em>mBio</em> 5,.
-</div>
-</div>
 </div>
 </div>
 

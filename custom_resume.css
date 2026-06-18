@@ -9,12 +9,12 @@
 
 :root{
   --page-width: 8.5in;
-  --margin-right: 0.3in;
-  --margin-left: 0.25in;
+  --margin-right: 0.2in;
+  --margin-left: 0.15in;
   --content-width: calc(var(--page-width) - var(--margin-right) - var(--margin-left));
   --root-font-size: 12pt;
-  --sidebar-width: 15rem;
-  --sidebar-background-color: #f2f2f2;
+  --sidebar-width: 17rem;
+  --sidebar-background-color: #dcdcdc;
   --main-width: calc(var(--content-width) - var(--sidebar-width));
   --decorator-horizontal-margin: 0.2in;
 
@@ -28,7 +28,7 @@
   --decorator-border: 1px solid #ccc;
 
   --row-blocks-padding-top: 0.5rem;
-  --date-block-width: 0.7in;
+  --date-block-width: 0.6in;
 
   --main-blocks-title-icon-offset-left: calc(-17pt - 0.25 * var(--root-font-size));
 

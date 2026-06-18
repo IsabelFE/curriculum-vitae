@@ -1,4 +1,6 @@
 ---
+bibliography: references.bib
+csl: references_style.csl
 nocite: |
   @*
 ---
@@ -6,5 +8,5 @@ nocite: |
 # References {.unnumbered}
 
 ::: {#refs}
-
 :::
+
